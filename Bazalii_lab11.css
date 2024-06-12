@@ -1,0 +1,114 @@
+h1 {
+    color:rgb(116, 5, 5);
+    font-size: 50px;
+    font-style:normal;
+    text-align: center;
+}
+
+P { margin-left: 5%; margin-right: 5% }
+
+
+
+.border_text{
+    border-radius: 25px;
+  border: 4px solid #1e7712;
+  padding: auto; 
+  width: auto;
+  height: auto;
+  background-color: #38e438ad;
+}
+
+body{
+    background-color: rgb(247, 208, 255);
+    
+}
+
+
+ 
+a:hover{
+    
+    color:red
+    
+    
+}
+
+a:visited{
+    color: #b9bb30;
+}
+
+.borders{
+    border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  
+  
+
+ 
+  background-color: rgb(244, 224, 247);
+  
+}
+
+
+li{
+    float: right;
+     border: 2px solid rgb(247, 170, 255);
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+}
+    
+    
+
+
+ul{ 
+    list-style-type: none;
+    margin-bottom: 120px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+  
+  
+}
+
+.panelBorders{
+    border-radius: 25px;
+  border: 3px solid rgb(247, 170, 255);
+  width: 200px;
+  float: left;
+  
+}
+
+.panelTextS{
+    text-align: center;
+    font-size: 25px;
+    font-style:normal;
+    color: rgb(144, 0, 173);
+    
+}
+
+.imgs {
+    
+    border-radius: 25px;
+   margin: auto;
+    display:flex;
+    
+    
+  }
+
+.backText{
+    color: rgb(144, 0, 173);
+    font-size: 25px;
+    font-style:normal;
+    text-align: center;
+}
+.backBorders{
+    border: 3px solid rgb(247, 170, 255);
+    background-color: rgb(244, 224, 247);
+    border-radius: 25px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+
+}
