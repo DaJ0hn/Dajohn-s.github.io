@@ -6,9 +6,11 @@
         <title></title>
         <style>
 .container{
-    display: grid;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    margin-bottom: 10px;
 }
 
 
@@ -19,69 +21,48 @@
     width: 400px;
     height: 200px;
 }
+#futer{
+    padding: 20px;
+    align-items: center;
+    padding-left: 39%;
+}
+@media screen and ( max-width: 900px){
+    #futer{
+        padding-left: 20%;
+    }
+}
+@media screen and ( max-width: 600px){
+    #futer{
+        padding-left: 5%;
+    }
+}
 
 #photo1{
-   
-    grid-row-start:2 ;
-    grid-row-end:4 ;
-    grid-column-start:2 ;
-    grid-column-end:6 ;
+
 }
 #photo2{
-    
-    grid-row-start:2 ;
-    grid-row-end:4 ;
-    grid-column-start:8 ;
-    grid-column-end:12 ;
+
 }
 #photo3{
-    
-    grid-row-start:2 ;
-    grid-row-end:4 ;
-    grid-column-start:14 ;
-    grid-column-end:18 ;  
+
 }
 #photo4{
-   
-    grid-row-start:8 ;
-    grid-row-end:10 ;
-    grid-column-start:2 ;
-    grid-column-end:6 ;
+
 }
 #photo5{
-    
-    grid-row-start:8 ;
-    grid-row-end:10 ;
-    grid-column-start:8 ;
-    grid-column-end:12 ; 
+
 }
 #photo6{
-    
-    grid-row-start:8 ;
-    grid-row-end:10 ;
-    grid-column-start:14 ;
-    grid-column-end:18 ; 
+
 }
 #photo7{
-    
-    grid-row-start:14 ;
-    grid-row-end:16 ;
-    grid-column-start:2 ;
-    grid-column-end:6 ;
+
 }
 #photo8{
-    
-    grid-row-start:14 ;
-    grid-row-end:16 ;
-    grid-column-start:8 ;
-    grid-column-end:12 ;
+
 }
 #photo9{
-    
-    grid-row-start:14 ;
-    grid-row-end:16 ;
-    grid-column-start:14 ;
-    grid-column-end:18 ;   
+ 
 } 
 
 
@@ -115,5 +96,9 @@
     <div id="photo8" class="bordrs"><a href="photo8.jpg"><img src="photo8.jpg" height="200" width="400" class="photoFlex"></a></div>
     <div id="photo9" class="bordrs"><a href="photo9.jpg"><img src="photo9.jpg" height="200" width="400" class="photoFlex"></a></div>
 </div>
+<div class="box borders" id="futer">
+            <div class="mapStats"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2587.2027587886487!2d34.56604600413936!3d49.57506417476435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82f64cd0cbd85%3A0x528a08266c1d4938!2sYuriy%20Kondratyuk%20Poltava%20Polytechnic!5e0!3m2!1sen!2sua!4v1718118916928!5m2!1sen!2sua" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div class ="mapStats"><p>контакти: +10111111111</p></div>
+        </div>
     </body>
 </html>
